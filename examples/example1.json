@@ -1,0 +1,16 @@
+{
+  "id": 470,
+  "exercises": 4,
+  "exercise_priority": 3,
+  "exercise_purpose": 1,
+  "execution_cnt": 4,
+  "execution_plannedcntsum": 48,
+  "train_iscircuit": 1,
+  "train_startedat_day": 1,
+  "train_startedat_hour": 13,
+  "action_rig": 2,
+  "action_bigcount": 1,
+  "action_strengthallowed": 0,
+  "action_allowcheating": 0,
+  "exercise_totaldurationinsec": 2586
+}
