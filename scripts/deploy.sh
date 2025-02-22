@@ -10,6 +10,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Start the Flask app with Gunicorn
-gunicorn --workers 4 --bind 0.0.0.0:5000 app.main:app &
-
-echo "App deployed and running on http://0.0.0.0:5000"
+gunicorn --workers 2 --bind 127.0.0.1:5001 app.main:app &
+echo "App deployed and running on http://127.0.0.1:5001"
